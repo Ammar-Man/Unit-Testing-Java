@@ -14,8 +14,7 @@ public class App
 
     public static void main( String[] args )
     {       
-    	FasebookApp FacebookTest = new FasebookApp();
-    	FacebookTest.p();
+    	
     
     }
 }
