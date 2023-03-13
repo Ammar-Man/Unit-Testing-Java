@@ -1,4 +1,7 @@
-@Test
+
+
+### Unit testing java #3
+@Test 
  
     public void readCSVTest() {
     	
@@ -29,4 +32,20 @@
     	assertFalse(readCVS.getArray().contains(name) );
     		
     	
+    }
+
+
+	### Unit Auto-test with selenium java #4
+    @Test
+    public void testOne(){
+        String getProduktName = loginTest(); 
+
+        boolean loginErorr = loginErorr(); 
+        
+
+        assertFalse(loginErorr);
+
+        assertTrue(  getProduktName.length() > 0);
+
+
     }
