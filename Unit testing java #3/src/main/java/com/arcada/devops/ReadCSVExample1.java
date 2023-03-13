@@ -46,10 +46,7 @@ public class ReadCSVExample1 {
     	
     	for(int i=0; i<array.size();i++){
     		  String arrayName =  array.get(i).toString();
-    		
-    		  
     		  if (arrayName == name ) {
-    			  
     			  array.remove(i);
     			  System.out.print(name+ " The name removed form list!");
     		  }
